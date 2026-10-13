@@ -9,7 +9,7 @@ historial.append("github.com")
 print("historial:", historial)
 
 #3. ver elemento superior
-pagina_Actual = historial[2]
+pagina_Actual = historial[-1]
 print("pagina actual:", pagina_Actual)
 
 #4. desapilar/ pop
